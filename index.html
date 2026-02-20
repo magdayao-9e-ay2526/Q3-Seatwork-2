@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Seatwork 2: Discount Portal</title>
+    
+    <!-- CSS -->
+     <link rel="stylesheet" href="styles.css">
+
+     <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+
+</head>
+<body>
+
+    <header class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PC TECH SOULTION</a>
+            <form class="d-flex">
+                    <button class="btn btn-warning" type="button">LATEST PROMO 15% OFF for Gadegts</button>
+                </form>
+            </div>
+    </header>
+
+    <!-- END OF HEADER -->
+
+    <!-- START OF MAIN -->
+     <main class="container-fluid">
+        <div class="container text-center bg-warning mt-5 p-5">
+                <h1>Want a gaming laptop</h1>
+                <p class="text-center text-muted">Enter your balance here and we'll find a suitable product for you!</p>
+
+                <input type="number" id="balanceInput" class="form-control w-50" placeholder="Enter your balance">
+            </div>
+
+            <div class="discountButtons">
+                <button class="btn btn-primary mt-3" style="float: left;" onclick="">Brand & Discount</button>
+                <button class="btn btn-primary mt-3" style="float: right;" onclick="">Items on Sale</button>
+                <button class="btn btn-primary mt-3" onclick="window.location.reload()">Refresh</button>
+                <br><br>
+            </div>
+            
+            <div class="container bg-secondary">
+                <h2 class="text-white">Recommended Brands:</h2>
+
+                <button class="btn btn-warning">Acer</button>
+                <button class="btn btn-warning">Asus</button>
+                <button class="btn btn-warnng">Lenovo</button>
+                <button class="btn btn-warning">Logitech</button>
+
+            </div>
+
+        </main>
+            
+      <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
+         &copy; 2026 PC Tech Solutions. All rights reserved
+
+        </footer>
+
+        <script src="main.js"></script>
+</body>
+</html>
